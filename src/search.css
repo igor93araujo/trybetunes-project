@@ -151,7 +151,10 @@
     display: flex;
     flex-direction: column;
     font-size: 15px;
-    width: 100%;
+  }
+
+  .searchResult {
+    width: 395px;
   }
 
   .header {
@@ -174,7 +177,7 @@
 
   .searchPage {
   height: 0.1px;
-  width: 100%;
+  width: 395px;
   }
 
   .searchPage input, .searchPage button {
