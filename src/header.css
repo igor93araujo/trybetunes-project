@@ -39,3 +39,9 @@
 .link:hover {
   font-size: xx-large;
 }
+
+@media screen and (max-width: 768px) {
+  .link:hover {
+    font-size: x-large;
+  }
+}
