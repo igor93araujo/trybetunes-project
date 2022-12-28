@@ -1,0 +1,265 @@
+.fullPageSearch {
+  display: flex;
+  height: 100vh;
+}
+
+.searchPage {
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: row;
+  height: 20vh;
+  justify-content: center;
+  width: 80vw;
+}
+
+.searchPage input, .searchPage button {
+  background-color: #f9fbff;
+  border: none;
+  border-radius: 20px;
+  color: black;
+  font-size: large;
+  font-weight: 600;
+  margin: 1rem 2rem;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.searchPage input {
+  height: 2rem;
+  width: 30rem;
+}
+
+.searchPage button {
+  height: 2.6rem;
+  width: 10rem;
+}
+
+.searchResult {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  overflow-y: scroll;
+  padding: 3rem;
+  margin-right: 0;
+}
+
+.searchResult::-webkit-scrollbar, .searchAlbumPage::-webkit-scrollbar {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.albumResult {
+  display: flex;
+  font-size: x-large;
+  font-weight: 600;
+  justify-content: center;
+}
+
+.searchSongs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.musicCard {
+  align-items: center;
+  display: flex;
+  margin: 2rem;
+  width: 15rem;
+}
+
+.cardImg {
+  border-radius: 10px;
+  width: 15rem;
+}
+
+.cardImg:hover {
+  transform: scale(110%);
+  transition: all ease 0.3s;
+}
+
+.cardInfo {
+  font-size: medium;
+}
+
+.cardArtName {
+  font-size: small;
+}
+
+.cardColletionLink {
+  color: rgb(217, 230, 216);
+  text-decoration: none;
+}
+
+.searchAlbumPage {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  overflow-y: scroll;
+  padding: 3rem;
+}
+
+
+.musicPlayer {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+  margin-left: 20rem;
+  width: 70%;
+}
+
+.trackName {
+  display: flex;
+  font-size: x-large;
+  justify-content: flex-end;
+  width: 20rem;
+}
+
+.trackId {
+  display: none;
+}
+
+.albumImg {
+  position: absolute;
+  top: 7rem;
+  transition: all ease 0.5s;
+}
+
+.albumImg img {
+  border-radius: 20%;
+}
+
+.inputDiv {
+  font-size: larger;
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .fullPageSearch {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    width: 100%;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    justify-content: space-around;
+    align-items:center;
+    width: 500px;
+    padding: 10px 0px 0px 10px;
+  }
+
+  .header p, .header div, .header a {
+    font-size: 15px;
+  }
+
+  page-search {
+    padding-top: 5px;
+  }
+
+  .searchPage {
+  height: 0.1px;
+  width: 100%;
+  }
+
+  .searchPage input, .searchPage button {
+    height: 30px;
+    font-size: 15px;
+  }
+
+  .searchSongs {
+    justify-content: center;
+    align-items: center;
+    padding-left: -100px ;
+  }
+
+  .musicCard {
+    width: 100px
+  }
+
+  .musicCard img {
+    width: 100px;
+  }
+
+  .resultContent {
+    justify-content: center;
+    align-items: center ;
+    width: 500px;
+  }
+
+  .searchAlbumPage {
+    display:flex;
+    align-items: center;
+    margin-top: 100px;
+    background-color: transparent;  
+  }
+
+  .albumInformation {
+    margin-left: 150px;
+  }
+
+  .musicPlayer p {
+    font-size: 15px;
+  }
+
+  .audioTag audio {
+    width: 250px;
+    height: 30px;
+    margin-right: 0px;
+  }
+
+  .musicPlayer {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+  }
+
+  .albumImg img{
+    width: 80px;
+    margin-left: -12rem;
+  }
+
+  .inputDiv {
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    margin-top: -30px;
+    margin-left: 0px;
+  }
+
+  .trackName {
+    margin-right: -30px;
+    margin-left: 100px;
+    width: 100px;
+  }
+
+  .searchPage {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  
+  .searchPage input {
+    height: 20px;
+    width: 300px;
+    font-size: 15px;
+    margin-bottom: -50px;
+  }
+  }
+

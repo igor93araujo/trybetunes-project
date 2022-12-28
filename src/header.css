@@ -1,0 +1,41 @@
+.header {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: azure;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  font-weight: 700;
+  height: 100vh;
+  justify-content: space-between;
+  letter-spacing: 0.03em;
+  line-height: 16px;
+  text-align: center;
+  width: 20vw;
+}
+
+.header nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.header p {
+  font-size: x-large;
+  margin-top: 20%;
+}
+
+.headerName {
+  display: flex;
+  flex-direction: column;
+}
+
+.link {
+  color: white;
+  font-size: x-large;
+  font-weight: 600;
+  margin-bottom: 20%;
+  text-decoration: none;
+}
+
+.link:hover {
+  font-size: xx-large;
+}

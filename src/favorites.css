@@ -1,0 +1,23 @@
+.favoriteSongsPage {
+  color: white;
+  padding-top: 5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .favoriteSongsPage {
+    color: white;
+    padding-top: 50px;
+    margin-left: -350px;
+  }
+
+  .musicPlayer {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .musicPlayer p {
+    font-size: 12px;
+  }
+}

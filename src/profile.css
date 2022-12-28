@@ -1,0 +1,145 @@
+.profilePage, .profileEditPage {
+  align-items: flex-start;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: x-large;
+  height: 80vh;
+  justify-content: center;
+  margin: 10rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  width: 40%;
+}
+
+.profilePage img, .profileEditPage img {
+  border-radius: 10px;
+  margin-right: 5rem;
+  width: 20rem;
+}
+
+.editLink {
+  color: white;
+  font-size: x-large;
+  margin-left: 30rem;
+  text-decoration: underline;
+}
+
+.pageName {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.profileTitles {
+  font-size: medium;
+}
+
+.imageEdit {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.profileEditPage {
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  margin-right: 2rem;
+}
+
+.profileEditPage form {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.profileEditPage input {
+  border: none;
+  border-radius: 5rem;
+  font-size: large;
+  height: 3rem;
+  padding: 0.3rem;
+  text-align: center;
+  width: 20rem;
+}
+
+.profileEditPage textarea {
+  border: none;
+  border-radius: 1rem;
+  font-size: large;
+  padding: 0.8rem;
+  text-align: justify;
+  width: 20rem;
+}
+
+.profileEditPage button {
+  background-color: green;
+  border: none;
+  border-radius: 1rem;
+  color: white;
+  font-size: large;
+  font-weight: 500;
+  padding: 0.8rem;
+  text-align: center;
+  width: 20rem;
+}
+
+@media screen and (max-width: 768px) {
+  .profilePage {
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 60px;
+    padding: 15px;
+    width: 350px;
+  }
+
+  .editLink {
+    margin-left: 130px;
+    font-size: 20px;
+  }
+
+  .profileEditPage {
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    margin-top: 10px;
+  }
+
+  form spam {
+    font-size: 15px;
+  }
+
+  #userName, #userEmail, #userImage {
+    height: 20px;
+    width: 300px;
+    font-size: 15px;
+    margin-bottom: -50px;
+  }
+
+  #userImage {
+    margin-left: -40px;
+    margin-top: -60px;
+  }
+
+  spam {
+    width: fit-content;
+  }
+
+  .profileImage {
+    transform: scale(50%);
+    margin-left: -70px;
+    margin-bottom: -50px;
+  }
+
+  .imageEdit {
+    margin-left: 150px;
+  }
+
+}
