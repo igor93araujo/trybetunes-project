@@ -8,14 +8,31 @@
     color: white;
     padding-top: 50px;
     margin-left: -350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .musicPlayer {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
   }
 
+  .songPlayerNFavorite {
+    display: flex;
+    margin-left: 150px;
+    align-items:flex-end;
+    gap: 20px;
+  }
+
+  .musicInfos {
+    width: 200px;
+    display: flex;
+    text-align: center;
+    flex-wrap: nowrap;
+  }
   .musicPlayer p {
     font-size: 12px;
   }

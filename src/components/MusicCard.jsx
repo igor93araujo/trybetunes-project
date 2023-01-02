@@ -49,10 +49,13 @@ class MusicCard extends Component {
     const { loading, favorite } = this.state;
     return (
       <div className="musicPlayer">
+        <div className="musicInfos">
           <p className="trackName">{ trackName }</p>
         <div className="trackId">
           <p>{ trackId }</p>
         </div>
+        </div>
+        <div className='songPlayerNFavorite'>
         <div className="audioTag">
           <audio data-testid="audio-component" src={ previewUrl } controls>
             <track kind="captions" />
@@ -74,6 +77,7 @@ class MusicCard extends Component {
               checked={ favorite }
             />
           </label>
+          </div>
         <div>
           {
             loading ? <LoadingMessage /> : null
