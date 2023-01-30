@@ -153,7 +153,7 @@ class ProfileEdit extends React.Component {
               disabled={ isButtonDisabled }
               onClick={ this.handleClick }
             >
-              Editar perfil
+              Salvar perfil
             </button>
           </form>
         </section>
