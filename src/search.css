@@ -151,6 +151,7 @@
     display: flex;
     flex-direction: column;
     font-size: 15px;
+    width: 100vw;
   }
 
   .searchResult {
@@ -163,7 +164,7 @@
     height: 100px;
     justify-content: space-around;
     align-items:center;
-    width: 500px;
+    width: 100vw;
     padding: 10px 0px 0px 10px;
   }
 
@@ -202,13 +203,13 @@
   .resultContent {
     justify-content: center;
     align-items: center ;
-    width: 500px;
+    width: 80%;
   }
 
   .searchAlbumPage {
     display:flex;
     align-items: center;
-    margin-top: 100px;
+    margin-top: px;
     background-color: transparent;  
   }
 
@@ -229,12 +230,17 @@
   .musicPlayer {
     display: flex;
     flex-direction: row;
-    width: 500px;
+    justify-content: center;
+    width: 100%;
   }
 
   .albumImg img{
     width: 80px;
-    margin-left: -12rem;
+    margin-left: auto;
+  }
+
+  .searchAlbumPage {
+    width: 100vw;
   }
 
   .inputDiv {

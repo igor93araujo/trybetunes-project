@@ -23,7 +23,9 @@ class Profile extends React.Component {
     });
   }
 
+  
   render() {
+    localStorage.getItem('user') //tentando saber onde chamar esse getITEM
     const {  userInfos } = this.state;
     const { name, description, email, image } = userInfos;
     return (

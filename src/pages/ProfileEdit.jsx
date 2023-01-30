@@ -53,6 +53,7 @@ class ProfileEdit extends React.Component {
         return history.push('/profile');
       },
     );
+    localStorage.setItem(this.state)
   };
 
   verifyUserInfos = () => {
@@ -97,7 +98,6 @@ class ProfileEdit extends React.Component {
               alt={ userName }
               className="profileImage"
               />
-              </div>
             <input
               data-testid="edit-input-image"
               name="userImage"
@@ -106,7 +106,8 @@ class ProfileEdit extends React.Component {
               type="text"
               onChange={ this.handleChange }
               placeholder="Link para nova imagem"
-            />
+              />
+              </div>
           <form>
             <div>
               <spam>Seu nome </spam>
@@ -132,7 +133,7 @@ class ProfileEdit extends React.Component {
                 onChange={ this.handleChange }
               />
             </div>
-            <div>
+            <div className='textBoxArea'>
               <spam>Fale sobre você </spam>
               <textarea
                 type="userDescription"

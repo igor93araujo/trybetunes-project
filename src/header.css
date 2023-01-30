@@ -44,4 +44,8 @@
   .link:hover {
     font-size:medium;
 }
+
+  .header {
+    width: 100vw;
+  }
 }
