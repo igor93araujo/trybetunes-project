@@ -21,5 +21,6 @@ API Request<br/>
 Manipulação da biblioteca Material/ui<br/>
 
 👨🏼‍💻 Dados obtidos de iTunes Search API<br/>
+
 :link: Github: [https://github.com/igor93araujo/NetflixClone](https://github.com/igor93araujo)
 :link: Linkedin <a href="https://www.linkedin.com/in/barbosaigor16/">@BarbosaIgor16</a>:white_check_mark:
